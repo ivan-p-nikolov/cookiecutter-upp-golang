@@ -26,7 +26,7 @@ func main() {
 
 	appSystemCode := app.String(cli.StringOpt{
 		Name:   "app-system-code",
-		Value:  "{{ cookiecutter.system_code }}",
+		Value:  "{{ cookiecutter.system_code_new }}",
 		Desc:   "System Code of the application",
 		EnvVar: "APP_SYSTEM_CODE",
 	})
